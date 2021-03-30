@@ -226,6 +226,7 @@ public:
                 log_num_buckets,
                 stripe_size,
                 num_threads,
+                !nobitfield,
                 show_progress);
             p1.PrintElapsed("Time for phase 1 =");
 
